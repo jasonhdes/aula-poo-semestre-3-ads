@@ -1,0 +1,23 @@
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\bin\Debug\MestreMotores.exe.config
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\bin\Debug\MestreMotores.exe
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\bin\Debug\MestreMotores.pdb
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\obj\Debug\MestreMotores.csproj.AssemblyReference.cache
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\obj\Debug\MestreMotores.FrmLogin.resources
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\obj\Debug\MestreMotores.Properties.Resources.resources
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\obj\Debug\MestreMotores.csproj.GenerateResource.cache
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\obj\Debug\MestreMotores.csproj.CoreCompileInputs.cache
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\obj\Debug\MestreMotores.exe
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\obj\Debug\MestreMotores.pdb
+E:\UB ADS\3Semestre\POO\repos\MestreMotores\MestreMotores\obj\Debug\MestreMotores.FrmMenu.resources
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\bin\Debug\MestreMotores.exe.config
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\bin\Debug\MestreMotores.exe
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\bin\Debug\MestreMotores.pdb
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.csproj.AssemblyReference.cache
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.FrmLogin.resources
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.FrmMenu.resources
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.frmListar.resources
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.Properties.Resources.resources
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.csproj.GenerateResource.cache
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.csproj.CoreCompileInputs.cache
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.exe
+C:\Users\jhdes\Documents\Estudos\ADS\3 semestre\Aula Ricardo\poo\MestreMotores\MestreMotores\obj\Debug\MestreMotores.pdb
