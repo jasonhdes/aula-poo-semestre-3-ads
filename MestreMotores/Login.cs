@@ -30,18 +30,5 @@ namespace MestreMotores
                 Hide();
             }
         }
-        private void pctMostrar_Click(object sender, EventArgs e)
-        {
-            if (txtSenha.PasswordChar == '*')
-            {
-                txtSenha.PasswordChar = '\0';
-                pctMostrar.Image = Properties.Resources.esconder;
-            }
-            else
-            {
-                txtSenha.PasswordChar = '*';
-                pctMostrar.Image = Properties.Resources.visualizar;
-            }
-        }
     }
 }
