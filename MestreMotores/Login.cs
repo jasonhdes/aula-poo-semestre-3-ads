@@ -30,7 +30,7 @@ namespace MestreMotores
                 Hide();
             }
         }
-        private void pctMostrar_Click_1(object sender, EventArgs e)
+        private void pctMostrar_Click(object sender, EventArgs e)
         {
             if (txtSenha.PasswordChar == '*')
             {
