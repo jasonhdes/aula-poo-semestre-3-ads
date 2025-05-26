@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblListar = new System.Windows.Forms.Label();
             this.lblTabela = new System.Windows.Forms.Label();
             this.dtgListar = new System.Windows.Forms.DataGridView();
@@ -66,15 +68,40 @@
             // 
             // dtgListar
             // 
-            this.dtgListar.AllowUserToOrderColumns = true;
+            this.dtgListar.AllowUserToAddRows = false;
+            this.dtgListar.AllowUserToDeleteRows = false;
+            this.dtgListar.AllowUserToResizeColumns = false;
+            this.dtgListar.AllowUserToResizeRows = false;
+            this.dtgListar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtgListar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(50)))), ((int)(((byte)(90)))));
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(50)))), ((int)(((byte)(90)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(50)))), ((int)(((byte)(90)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgListar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgListar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(50)))), ((int)(((byte)(90)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(76)))), ((int)(((byte)(146)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgListar.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dtgListar.EnableHeadersVisualStyles = false;
             this.dtgListar.Location = new System.Drawing.Point(68, 58);
-            this.dtgListar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgListar.Margin = new System.Windows.Forms.Padding(4);
+            this.dtgListar.MultiSelect = false;
             this.dtgListar.Name = "dtgListar";
+            this.dtgListar.ReadOnly = true;
+            this.dtgListar.RowHeadersVisible = false;
             this.dtgListar.RowHeadersWidth = 51;
             this.dtgListar.Size = new System.Drawing.Size(983, 442);
             this.dtgListar.TabIndex = 2;
+            this.dtgListar.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dtgListar_CellFormatting);
             // 
             // btnFechar
             // 
@@ -86,7 +113,7 @@
             this.btnFechar.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFechar.ForeColor = System.Drawing.Color.White;
             this.btnFechar.Location = new System.Drawing.Point(1007, -1);
-            this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFechar.Margin = new System.Windows.Forms.Padding(4);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(60, 55);
             this.btnFechar.TabIndex = 11;
@@ -101,9 +128,9 @@
             this.btnCadastrar.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
             this.btnCadastrar.Location = new System.Drawing.Point(68, 505);
-            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(200, 49);
+            this.btnCadastrar.Size = new System.Drawing.Size(250, 49);
             this.btnCadastrar.TabIndex = 12;
             this.btnCadastrar.Text = "CADASTRAR";
             this.btnCadastrar.UseVisualStyleBackColor = false;
@@ -115,9 +142,9 @@
             this.btnAlterar.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterar.ForeColor = System.Drawing.Color.White;
             this.btnAlterar.Location = new System.Drawing.Point(457, 505);
-            this.btnAlterar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAlterar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(200, 49);
+            this.btnAlterar.Size = new System.Drawing.Size(250, 49);
             this.btnAlterar.TabIndex = 13;
             this.btnAlterar.Text = "ALTERAR";
             this.btnAlterar.UseVisualStyleBackColor = false;
@@ -128,10 +155,10 @@
             this.btnDeletar.FlatAppearance.BorderSize = 0;
             this.btnDeletar.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeletar.ForeColor = System.Drawing.Color.White;
-            this.btnDeletar.Location = new System.Drawing.Point(851, 505);
-            this.btnDeletar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeletar.Location = new System.Drawing.Point(801, 505);
+            this.btnDeletar.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeletar.Name = "btnDeletar";
-            this.btnDeletar.Size = new System.Drawing.Size(200, 49);
+            this.btnDeletar.Size = new System.Drawing.Size(250, 49);
             this.btnDeletar.TabIndex = 14;
             this.btnDeletar.Text = "DELETAR";
             this.btnDeletar.UseVisualStyleBackColor = false;
@@ -149,7 +176,7 @@
             this.Controls.Add(this.lblTabela);
             this.Controls.Add(this.lblListar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmListar";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Listar_Load);
